@@ -30,6 +30,10 @@ export const styles = StyleSheet.create({
         padding: 15,
         marginTop: 10
     },
+    buttonDisabled: {
+        opacity: 0.6,
+        pointerEvents: 'none'
+    },
     textButton: {
         textAlign: 'center',
         fontSize: 16,
